@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Feb 09 15:21:15 BRT 2023","Thu Feb 09 15:21:20 BRT 2023","4462","","home","","","","realizar login no adm consultorio",""
+"passed","Thu Feb 09 15:21:10 BRT 2023","Thu Feb 09 15:21:15 BRT 2023","5147","","home","","","","acessar consultorioonline",""

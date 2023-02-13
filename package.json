@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@cypress/xpath": "^2.0.3",
+    "@shelex/cypress-allure-plugin": "^2.35.2",
+    "allure-commandline": "^2.20.1",
+    "cypress": "^12.2.0",
+    "cypress-xpath": "^2.0.1",
+    "http-server": "^14.1.1"
+  }
+}
