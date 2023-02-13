@@ -20,17 +20,15 @@ describe('Suite Módulo Pacientes', () => {
         .get("#submenu_pacientes")
         .click()
       
-      cy.get('#nome_idPesquisa')
-
-      cy.get('#nome_idPesquisa')
-        .type('Paciente Teste')
+      cy.get('#login_idPesquisa')
+        .type('pac@teste.com')
       
       cy.get('#btn_pesquisar')
         .click()
 
       cy.wait(6000)
 
-      cy.get('tr:contains(Paciente Teste)')
+      cy.get('tr:contains(Teste Suporte TI)')
         .find('div:contains(Ativo)')
         .should('have.css', 'background-color', 'rgb(10, 138, 15)')
         .get('td:contains(pac@teste.com)')
