@@ -39,7 +39,7 @@ describe('Suite Módulo Pacientes', () => {
       cy.get('#id_idPesquisa')
     })
 
-    it.only("Realiza a criação do link mágico com User PSICOLOGO, pegando o access token e passando ele como bearer e Realizando Login", () => {
+    it("Realiza a criação do link mágico com User PSICOLOGO, pegando o access token e passando ele como bearer e Realizando Login", () => {
       cy.getLinkMagico("pac@teste.com", "", "CONSULTORIO")
         .then((response) => {
 

@@ -13,7 +13,7 @@ describe('Suite Módulo Psicólogos', () => {
     const usuario = 'felipecaue@psicologiaviva.com.br';
     const senha = '12345678@';
 
-    it.only('realizar busca de um profissional e Validando email, se ele esta ativo e se a cor do ativo esta correta', () => {
+    it('realizar busca de um profissional e Validando email, se ele esta ativo e se a cor do ativo esta correta', () => {
 
       cy.realizarLogin(usuario, senha)
 
